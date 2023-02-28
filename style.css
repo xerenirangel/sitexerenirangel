@@ -258,8 +258,8 @@ h1 {
 }
 
 .testimonio-imagen {
-  height: 150px;
-  width: 150px;
+  height: 150px !important;
+  width: 150px !important;
   margin: 10px 10px 20px 10px;
 }
 
@@ -355,6 +355,12 @@ footer {
   padding: 20px;
   margin-bottom: 30px;
   font-family: 'Quicksand', sans-serif;
+}
+
+
+.footer-logo {
+  width: 100px !important;
+  height: 100px !important;
 }
 
 .iconos-redes-sociales a {
